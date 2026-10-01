@@ -18,7 +18,7 @@ def verificar_bonus(faturamento, meta):
 vendas_loja = 50000
 imposto = 0.15          # 15%
 custos = 12000
-meta_ano = 40000      # Meta estipulada
+meta_ano = 40000    # Meta estipulada
 print("Iniciando análise financeira...")
 
 faturamento_final = calcular_faturamento_liquido(vendas_loja, imposto, custos)
